@@ -1,3 +1,9 @@
+kdeclarative (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream alpha release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 11 Feb 2014 18:30:57 +0100
+
 kdeclarative (4.95.0-0ubuntu1) trusty; urgency=low
 
   * Initial release
