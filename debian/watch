@@ -1,3 +1,2 @@
 version=3
-
 http://download.kde.org/unstable/frameworks/([\d\.]*)/kdeclarative-(.*)\.tar\.xz
