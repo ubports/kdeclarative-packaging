@@ -1,4 +1,4 @@
-kdeclarative (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
+kdeclarative (4.96.0-0ubuntu1) trusty; urgency=medium
 
   [ Rohan Garg ]
   * New upstream alpha release
