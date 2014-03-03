@@ -23,14 +23,14 @@ Homepage: https://projects.kde.org/projects/frameworks/kdeclarative
 Package: libkf5declarative-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5declarative4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5declarative5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for kdeclarative
  Framework providing integration of QML and other KDE frameworks such as making
  i18n available and using kio.
  .
  Contains development files for kdeclarative.
  
-Package: libkf5declarative4
+Package: libkf5declarative5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -39,12 +39,12 @@ Description: provides integration of QML and KDE frameworks
  Framework providing integration of QML and other KDE frameworks such as making
  i18n available and using kio.
 
-Package: libkf5declarative4-dbg
+Package: libkf5declarative5-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5declarative4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5declarative5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kdeclarative
  Framework providing integration of QML and other KDE frameworks such as making
  i18n available and using kio.
