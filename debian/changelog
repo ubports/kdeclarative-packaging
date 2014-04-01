@@ -1,8 +1,8 @@
 kdeclarative (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream alpha release
   * Rename library package for soname 5
   * New upstream beta release
+  * Update debian/rules for tests with X
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:25:46 +0000
 
@@ -12,7 +12,7 @@ kdeclarative (4.96.0-0ubuntu1) trusty; urgency=medium
   * New upstream alpha release
 
   [ Scarlett Clark ]
-  * libs changed to 4.x renamed files/entries. 
+  * libs changed to 4.x renamed files/entries.
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 11 Feb 2014 18:30:57 +0100
 

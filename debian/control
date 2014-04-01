@@ -9,14 +9,16 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libkf5i18n-dev (>= 4.98.0), libkf5coreaddons-dev (>= 4.98.0),
  libkf5auth-dev (>= 4.98.0), libkf5codecs-dev (>= 4.98.0),
  libkf5guiaddons-dev (>= 4.98.0), libkf5widgetsaddons-dev (>= 4.98.0),
- libkf5configwidgets-dev (>= 4.98.0), libkf5itemviews-dev (>= 4.98.0), libkf5iconthemes-dev (>= 4.98.0), libkf5globalaccel-dev (>= 4.98.0),
+ libkf5configwidgets-dev (>= 4.98.0), libkf5itemviews-dev (>= 4.98.0), 
+ libkf5iconthemes-dev (>= 4.98.0), libkf5globalaccel-dev (>= 4.98.0),
  libkf5completion-dev (>= 4.98.0), libkf5dbusaddons-dev (>= 4.98.0),
  libkf5service-dev (>= 4.98.0), libkf5windowsystem-dev (>= 4.98.0),
  libkf5sonnet-dev (>= 4.98.0), libkf5textwidgets-dev (>= 4.98.0),
  libkf5xmlgui-dev (>= 4.98.0), libkf5bookmarks-dev (>= 4.98.0),
  libkf5jobwidgets-dev (>= 4.98.0), libkf5solid-dev (>= 4.98.0),
  kf5-kio-dev (>= 4.98.0), qtdeclarative5-dev, qtscript5-dev,
- libkf5attica-dev (>= 4.98.0)
+ libkf5attica-dev (>= 4.98.0),
+ xvfb, xauth, openbox, pkg-config
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdeclarative
 
