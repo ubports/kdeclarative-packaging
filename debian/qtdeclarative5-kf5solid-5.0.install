@@ -1,0 +1,10 @@
+usr/lib/x86_64-linux-gnu/qml/org/kde/draganddrop/libdraganddropplugin.so
+usr/lib/x86_64-linux-gnu/qml/org/kde/draganddrop/qmldir
+usr/lib/x86_64-linux-gnu/qml/org/kde/kcoreaddons/libkcoreaddonsplugin.so
+usr/lib/x86_64-linux-gnu/qml/org/kde/kcoreaddons/qmldir
+usr/lib/x86_64-linux-gnu/qml/org/kde/kquickcontrolsaddons/libkquickcontrolsaddonsplugin.so
+usr/lib/x86_64-linux-gnu/qml/org/kde/kquickcontrolsaddons/qmldir
+usr/lib/x86_64-linux-gnu/qml/org/kde/kquickcontrols/KeySequenceItem.qml
+usr/lib/x86_64-linux-gnu/qml/org/kde/kquickcontrols/qmldir
+usr/lib/x86_64-linux-gnu/qml/org/kde/private/kquickcontrols/libkquickcontrolsprivateplugin.so
+usr/lib/x86_64-linux-gnu/qml/org/kde/private/kquickcontrols/qmldir
