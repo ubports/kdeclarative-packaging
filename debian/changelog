@@ -8,6 +8,7 @@ kdeclarative (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Rename qtdeclarative5-kf5solid-5.0 to qtdeclarative5-kf5declarative-5.0 
+  * Fix i386 build 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:25:46 +0000
 
