@@ -1,9 +1,13 @@
 kdeclarative (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * Rename library package for soname 5
   * New upstream beta release
   * Update debian/rules for tests with X
   * New binary package qtdeclarative5-kf5solid-5.0
+
+  [ Scarlett Clark ]
+  * Rename qtdeclarative5-kf5solid-5.0 to qtdeclarative5-kf5declarative-5.0 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:25:46 +0000
 
