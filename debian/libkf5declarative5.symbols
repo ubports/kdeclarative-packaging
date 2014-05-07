@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.99.0 amd64
 libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative12KDeclarative10initializeEv@Base 4.96.0
  _ZN12KDeclarative12KDeclarative13setupBindingsEv@Base 4.96.0
@@ -11,12 +11,9 @@ libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative12KDeclarativeC2Ev@Base 4.96.0
  _ZN12KDeclarative12KDeclarativeD1Ev@Base 4.96.0
  _ZN12KDeclarative12KDeclarativeD2Ev@Base 4.96.0
- _ZN12KDeclarative17ConfigPropertyMap10loadConfigEv@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMap11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMap11qt_metacastEPKc@Base 4.96.0
- _ZN12KDeclarative17ConfigPropertyMap11writeConfigEv@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMap16staticMetaObjectE@Base 4.96.0
- _ZN12KDeclarative17ConfigPropertyMap16writeConfigValueERK7QStringRK8QVariant@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMapC1EP19KCoreConfigSkeletonP7QObject@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMapC2EP19KCoreConfigSkeletonP7QObject@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMapD0Ev@Base 4.96.0
