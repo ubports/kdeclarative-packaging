@@ -1,5 +1,10 @@
 kdeclarative (4.99.0-0ubuntu1) trusty; urgency=medium
 
+  [ José Manuel Santamaría Lema ]
+  * Re-add -dev package after a faulty wrap-and-sort.
+  * Install *.pri files in arch dependent path.
+  * Update install paths of qtdeclarative5-kf5declarative-5.0
+
   [ Jonathan Riddell ]
   * New upstream beta release
 
