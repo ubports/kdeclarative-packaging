@@ -1,4 +1,4 @@
 usr/include/KF5/
 usr/lib/*/cmake/KF5Declarative/
 usr/lib/*/libKF5Declarative.so
-usr/share/qt5/mkspecs/modules/qt_KDeclarative.pri
+usr/lib/*/qt5/mkspecs/modules/*
