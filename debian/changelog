@@ -1,3 +1,9 @@
+kdeclarative (4.99.0-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Re-add -dev package after a faulty wrap-and-sort. 
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 02 Jun 2014 07:45:18 +0200
+
 kdeclarative (4.99.0-0ubuntu1) trusty; urgency=medium
 
   [ Jonathan Riddell ]
