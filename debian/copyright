@@ -2,8 +2,8 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kdeclarative
 Source: https://projects.kde.org/projects/frameworks/kdeclarative
 
-Files: *  
-       debian/*     
+Files: *
+       debian/*
 Copyright: © 2011 Artur Duque de Souza <asouza@kde.org>
              2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: LGPL-2.1+
@@ -31,7 +31,7 @@ Files:  src/* excluding:
         tests/kdeclarativetest.cpp
 Copyright: 2010, 2013 Marco Martin <notmart@gmail.com>
            2011 Marco Martin <mart@kde.org>
-License: LGPL-2+ 
+License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
  License as published by the Free Software Foundation; either
