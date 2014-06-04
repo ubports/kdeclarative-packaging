@@ -55,13 +55,25 @@ Description: development files for kdeclarative
  Contains development files for kdeclarative.
 
 Package: libkf5declarative5
-Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends},
+ libkf5declarative-data (= ${source:Version})
 Description: provides integration of QML and KDE frameworks
  Framework providing integration of QML and other KDE frameworks such
  as making i18n available and using kio.
 Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Recommends: qtdeclarative5-kf5declarative-5.0 (= ${binary:Version})
+
+Package: libkf5declarative-data
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: provides integration of QML and KDE frameworks
+ Framework providing integration of QML and other KDE frameworks such
+ as making i18n available and using kio.
+ .
+ This package contains the translation files.
+Multi-Arch: foreign
 Pre-Depends: ${misc:Pre-Depends}
 Recommends: qtdeclarative5-kf5declarative-5.0 (= ${binary:Version})
 

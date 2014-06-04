@@ -2,9 +2,10 @@ kdeclarative (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream beta release
+  * Add -data package
+  * Update symbols
 
   [ Scarlett Clark ]
-  * Bump depends versions
   * Bump depends versions
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:36:54 +0100
