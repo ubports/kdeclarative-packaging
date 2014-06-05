@@ -11,6 +11,11 @@ kdeclarative (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
+  * Rename qtdeclarative5-kf5declarative-5.0 to qtdeclarative5-kf5declarative
+    as qml versions are not particularly useful and we gain nothing from
+    versioning the package name as a future version would need to change the
+    path and/or name to something that contains a version anyway also see
+    solid 4.100.0 changelog entry about the same change.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:36:54 +0100
 
