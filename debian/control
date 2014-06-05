@@ -62,7 +62,6 @@ Description: provides integration of QML and KDE frameworks
  Framework providing integration of QML and other KDE frameworks such
  as making i18n available and using kio.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 Recommends: qtdeclarative5-kf5declarative-5.0 (= ${binary:Version})
 
 Package: libkf5declarative-data
@@ -74,12 +73,10 @@ Description: provides integration of QML and KDE frameworks
  .
  This package contains the translation files.
 Multi-Arch: foreign
-Pre-Depends: ${misc:Pre-Depends}
 Recommends: qtdeclarative5-kf5declarative-5.0 (= ${binary:Version})
 
 Package: qtdeclarative5-kf5declarative-5.0
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: provides integration of QML and KDE frameworks
  Framework providing integration of QML and other KDE frameworks such
