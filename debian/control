@@ -6,7 +6,7 @@ XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 0.0.14),
-               kf5-kio-dev (>= 4.100.0),
+               kio-dev (>= 4:4.100.0),
                libkf5attica-dev (>= 4.100.0),
                libkf5auth-dev (>= 4.100.0),
                libkf5bookmarks-dev (>= 4.100.0),
