@@ -17,6 +17,9 @@ kdeclarative (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
     path and/or name to something that contains a version anyway also see
     solid 4.100.0 changelog entry about the same change.
 
+  [ José Manuel Santamaría Lema ]
+  * Build depend on kio-dev instead of kf5-kio-dev.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:36:54 +0100
 
 kdeclarative (4.99.0-0ubuntu1) trusty; urgency=medium
