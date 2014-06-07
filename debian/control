@@ -44,7 +44,7 @@ Homepage: https://projects.kde.org/projects/frameworks/kdeclarative
 Package: libkf5declarative-dev
 Section: libdevel
 Architecture: any
-Depends: kf5-kio-dev,
+Depends: kio-dev,
          libkf5declarative5 (= ${binary:Version}),
          qtbase5-dev,
          ${misc:Depends}
