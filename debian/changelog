@@ -1,3 +1,9 @@
+kdeclarative (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Initial stable upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:32:53 +0200
+
 kdeclarative (4.100.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
