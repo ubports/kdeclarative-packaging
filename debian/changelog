@@ -1,6 +1,10 @@
 kdeclarative (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * Initial stable upstream release
+
+  [ Scarlett Clark ]
+  * Fix install file 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:32:53 +0200
 
