@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64
+# SymbolsHelper-Confirmed: 5.0.0 amd64
 libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative12KDeclarative10initializeEv@Base 4.96.0
  _ZN12KDeclarative12KDeclarative13setupBindingsEv@Base 4.96.0
@@ -7,6 +7,7 @@ libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative12KDeclarative18setRuntimePlatformERK11QStringList@Base 4.100.0
  _ZN12KDeclarative12KDeclarative18setupQmlJsDebuggerEv@Base 4.96.0
  _ZN12KDeclarative12KDeclarative20setDeclarativeEngineEP10QQmlEngine@Base 4.96.0
+ _ZN12KDeclarative12KDeclarative20setTranslationDomainERK7QString@Base 5.0.0
  _ZN12KDeclarative12KDeclarative23defaultComponentsTargetEv@Base 4.96.0
  _ZN12KDeclarative12KDeclarativeC1Ev@Base 4.96.0
  _ZN12KDeclarative12KDeclarativeC2Ev@Base 4.96.0
@@ -23,6 +24,7 @@ libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative9QmlObject11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN12KDeclarative9QmlObject11qt_metacastEPKc@Base 4.96.0
  _ZN12KDeclarative9QmlObject16staticMetaObjectE@Base 4.96.0
+ _ZN12KDeclarative9QmlObject20setTranslationDomainERK7QString@Base 5.0.0
  _ZN12KDeclarative9QmlObject22completeInitializationERK5QHashI7QString8QVariantE@Base 4.96.0
  _ZN12KDeclarative9QmlObject22createObjectFromSourceERK4QUrlP11QQmlContextRK5QHashI7QString8QVariantE@Base 4.96.0
  _ZN12KDeclarative9QmlObject24setInitializationDelayedEb@Base 4.96.0
@@ -38,10 +40,12 @@ libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative9QmlObjectD1Ev@Base 4.96.0
  _ZN12KDeclarative9QmlObjectD2Ev@Base 4.96.0
  _ZNK12KDeclarative12KDeclarative17declarativeEngineEv@Base 4.96.0
+ _ZNK12KDeclarative12KDeclarative17translationDomainEv@Base 5.0.0
  _ZNK12KDeclarative17ConfigPropertyMap10metaObjectEv@Base 4.96.0
  _ZNK12KDeclarative9QmlObject10metaObjectEv@Base 4.96.0
  _ZNK12KDeclarative9QmlObject10rootObjectEv@Base 4.96.0
  _ZNK12KDeclarative9QmlObject13mainComponentEv@Base 4.96.0
+ _ZNK12KDeclarative9QmlObject17translationDomainEv@Base 5.0.0
  _ZNK12KDeclarative9QmlObject23isInitializationDelayedEv@Base 4.96.0
  _ZNK12KDeclarative9QmlObject6sourceEv@Base 4.96.0
  _ZTIN12KDeclarative17ConfigPropertyMapE@Base 4.96.0
