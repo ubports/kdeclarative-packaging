@@ -30,14 +30,11 @@ Build-Depends: cmake,
                libkf5widgetsaddons-dev (>= 5.0.0),
                libkf5windowsystem-dev (>= 5.0.0),
                libkf5xmlgui-dev (>= 5.0.0),
-               openbox,
                pkg-config,
                pkg-kde-tools,
                qtbase5-dev,
                qtdeclarative5-dev,
-               qtscript5-dev,
-               xauth,
-               xvfb
+               qtscript5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdeclarative
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdeclarative
@@ -58,8 +55,9 @@ Description: development files for kdeclarative
 
 Package: libkf5declarative5
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
- libkf5declarative-data (= ${source:Version})
+Depends: libkf5declarative-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: provides integration of QML and KDE frameworks
  Framework providing integration of QML and other KDE frameworks such
  as making i18n available and using kio.
