@@ -37,6 +37,7 @@ Build-Depends: cmake,
                qtscript5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdeclarative
+XS-Testsuite: autopkgtest
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdeclarative
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdeclarative
 
