@@ -4,8 +4,12 @@ Source: https://projects.kde.org/projects/frameworks/kdeclarative
 
 Files: *
        debian/*
-Copyright: © 2011 Artur Duque de Souza <asouza@kde.org>
-             2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Copyright: 2014 David Edmundson <davidedmundson@kde.org>
+           2009 by Alan Alpert <alan.alpert@nokia.com>
+           2010 by Ménard Alexis <menard@kde.org>
+           2011 by Marco Martin <mart@kde.org>
+           2014 Aleix Pol Gonzalez <aleixpol@blue-systems.com>
+           2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -21,15 +25,42 @@ License: LGPL-2.1+
  License along with this library.  If not, see <http://www.gnu.org/licenses/>.
  .
  On Debian systems, the complete text of the GNU General Lesser
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2.1".
+ Public License version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
 
-Files:  src/* 
-        src/private/* excluding:
-          - src/private/kiconprovider.cpp
-          - src/private/kiconprovider_p.h
-        tests/kdeclarativetest.cpp
-Copyright: 2010, 2013 Marco Martin <notmart@gmail.com>
-           2011 Marco Martin <mart@kde.org>
+Files: src/qmlcontrols/kquickcontrols/private/kquickcontrolsprivateplugin.cpp
+ src/qmlcontrols/kquickcontrols/private/kquickcontrolsprivateplugin.h
+ src/qmlcontrols/kquickcontrolsaddons/kquickcontrolsaddonsplugin.h
+ src/qmlcontrols/kquickcontrolsaddons/kquickcontrolsaddonsplugin.cpp
+ src/qmlcontrols/kquickcontrolsaddons/clipboard.h
+ src/qmlcontrols/kquickcontrolsaddons/mouseeventlistener.h
+ src/qmlcontrols/kquickcontrolsaddons/mimedatabase.cpp
+ src/qmlcontrols/kquickcontrolsaddons/qimageitem.cpp
+ src/qmlcontrols/kquickcontrolsaddons/qpixmapitem.cpp
+ src/qmlcontrols/kquickcontrolsaddons/mouseeventlistener.cpp
+ src/qmlcontrols/kquickcontrolsaddons/clipboard.cpp
+ src/qmlcontrols/kquickcontrolsaddons/columnproxymodel.cpp
+ src/qmlcontrols/kquickcontrolsaddons/qiconitem.cpp
+ src/qmlcontrols/kquickcontrolsaddons/mimedatabase.h
+ src/qmlcontrols/kquickcontrolsaddons/columnproxymodel.h
+ src/kdeclarative/configpropertymap.h
+ src/kdeclarative/qmlobject.h
+ src/kdeclarative/kdeclarative.cpp
+ src/kdeclarative/kdeclarative.h
+ src/kdeclarative/private/kioaccessmanagerfactory_p.h
+ src/kdeclarative/private/kioaccessmanagerfactory.cpp
+ src/kdeclarative/private/rootcontext.cpp
+ src/kdeclarative/private/rootcontext_p.h
+ src/kdeclarative/private/qmlobject_p.h
+ src/kdeclarative/private/kdeclarative_p.h
+ src/kdeclarative/configpropertymap.cpp
+ src/kdeclarative/qmlobject.cpp
+ tests/kdeclarativetest.cpp
+Copyright: 2014 David Edmundson <davidedmundson@kde.org>
+ 2009 by Alan Alpert <alan.alpert@nokia.com>
+ 2010 by Ménard Alexis <menard@kde.org>
+ 2011 by Marco Martin <mart@kde.org>
+ 2014 Aleix Pol Gonzalez <aleixpol@blue-systems.com>
+ 2013 Sebastian Kügler <sebas@kde.org>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -48,3 +79,54 @@ License: LGPL-2+
  .
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files:  src/qmlcontrols/kquickcontrolsaddons/qpixmapitem.h
+ src/qmlcontrols/kquickcontrolsaddons/qiconitem.h
+ src/qmlcontrols/kquickcontrolsaddons/qimageitem.h
+Copyright: 2011 Marco Martin <mart@kde.org>
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the
+ Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: src/qmlcontrols/kcoreaddons/kcoreaddonsplugin.cpp
+ src/qmlcontrols/kcoreaddons/formats.h
+ src/qmlcontrols/kcoreaddons/kcoreaddonsplugin.h
+ src/qmlcontrols/kcoreaddons/formats.cpp
+Copyright: 2014 Bhushan Shah <bhush94@gmail.com>
+ 2014 David Edmundson <davidedmundson@kde.org>
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the
+ Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
