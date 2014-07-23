@@ -1,3 +1,9 @@
+kdeclarative (5.0.0-0ubuntu2) utopic; urgency=medium
+
+  * Add implicit depends on qml modules from libkf5declarative5
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 23 Jul 2014 17:57:46 +0200
+
 kdeclarative (5.0.0-0ubuntu1) utopic; urgency=medium
 
   * Initial stable upstream release
