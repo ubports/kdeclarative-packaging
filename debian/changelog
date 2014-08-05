@@ -1,8 +1,8 @@
-kdeclarative (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
+kdeclarative (5.1.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 18:44:03 -0700
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:13:34 +0200
 
 kdeclarative (5.0.0-0ubuntu2) utopic; urgency=medium
 
