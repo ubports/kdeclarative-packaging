@@ -31,7 +31,7 @@ Build-Depends: cmake,
                libkf5windowsystem-dev (>= 5.2.0),
                libkf5xmlgui-dev (>= 5.2.0),
                pkg-config,
-               pkg-kde-tools,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev,
                qtdeclarative5-dev,
                qtscript5-dev
