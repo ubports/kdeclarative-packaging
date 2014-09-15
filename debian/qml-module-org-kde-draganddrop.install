@@ -1,2 +1,2 @@
-usr/lib/*/qt5/qml/org/kde/draganddrop/libdraganddropplugin.so
-usr/lib/*/qt5/qml/org/kde/draganddrop/qmldir
+usr/lib/*/qml/org/kde/draganddrop/libdraganddropplugin.so
+usr/lib/*/qml/org/kde/draganddrop/qmldir

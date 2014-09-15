@@ -123,6 +123,18 @@ Description: provides integration of QML and KDE Frameworks - kquickcontrolsaddo
  Controls.
  .
  This package contains the QML files used by libkf5declarative.
+ 
+Package: qml-module-org-kde-kio
+Architecture: any
+Multi-arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5declarative5 (>= ${source:Version})
+Breaks: qtdeclarative5-kf5declarative-5.0, qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1)
+Replaces: qtdeclarative5-kf5declarative-5.0, qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1)
+Description: provides integration of QML and KDE Frameworks - kio
+ This import contains KDE extras that are visually similar to Qt Quick
+ Controls.
+ .
+ This package contains the QML files used by libkf5declarative.
 
 Package: libkf5declarative5-dbg
 Priority: extra

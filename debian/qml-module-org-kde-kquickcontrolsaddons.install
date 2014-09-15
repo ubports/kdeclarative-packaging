@@ -1,2 +1,2 @@
-usr/lib/*/qt5/qml/org/kde/kquickcontrolsaddons/libkquickcontrolsaddonsplugin.so
-usr/lib/*/qt5/qml/org/kde/kquickcontrolsaddons/qmldir
+usr/lib/*/qml/org/kde/kquickcontrolsaddons/libkquickcontrolsaddonsplugin.so
+usr/lib/*/qml/org/kde/kquickcontrolsaddons/qmldir
