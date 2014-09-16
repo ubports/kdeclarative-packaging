@@ -1,2 +1,2 @@
-usr/lib/*/qml/org/kde/kio/libkio.so
-usr/lib/*/qml/org/kde/kio/qmldir
+usr/lib/*/qt5/qml/org/kde/kio/libkio.so
+usr/lib/*/qt5/qml/org/kde/kio/qmldir

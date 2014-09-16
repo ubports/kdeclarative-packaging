@@ -7,6 +7,7 @@ kdeclarative (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Update install paths for all qml packages. 
   * Add new qml package for kio
+  * Revert to original install paths. Upstream Review:120229
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:34:13 +0000
 
