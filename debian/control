@@ -38,8 +38,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdeclarative
 XS-Testsuite: autopkgtest
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdeclarative
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdeclarative
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kdeclarative.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdeclarative.git
 
 Package: libkf5declarative-dev
 Section: libdevel
