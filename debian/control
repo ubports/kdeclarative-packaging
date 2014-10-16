@@ -46,6 +46,7 @@ Section: libdevel
 Architecture: any
 Depends: kio-dev,
          libkf5declarative5 (= ${binary:Version}),
+         libkf5quickaddons5 (= ${binary:Version}),
          qtbase5-dev,
          ${misc:Depends}
 Description: development files for kdeclarative
@@ -171,3 +172,10 @@ Description: debug symbols for kdeclarative
  i18n available and using kio.
  .
  Contains debug symbols for kdeclarative.
+
+Package: libkf5quickaddons5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Description: provides integration of QML and KDE frameworks
+ Framework providing optimized image texture caching.
