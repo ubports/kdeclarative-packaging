@@ -56,8 +56,9 @@ Description: development files for kdeclarative
 
 Package: libkf5declarative5
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
- libkf5declarative-data (= ${source:Version})
+Depends: libkf5declarative-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Multi-Arch: same
 Description: provides integration of QML and KDE frameworks
  Framework providing integration of QML and other KDE frameworks such
@@ -75,9 +76,12 @@ Description: provides integration of QML and KDE frameworks
 
 Package: qtdeclarative5-kf5declarative
 Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}, qml-module-org-kde-draganddrop,
- qml-module-org-kde-kcoreaddons, qml-module-org-kde-kquickcontrols,
- qml-module-org-kde-kquickcontrolsaddons
+Depends: qml-module-org-kde-draganddrop,
+         qml-module-org-kde-kcoreaddons,
+         qml-module-org-kde-kquickcontrols,
+         qml-module-org-kde-kquickcontrolsaddons,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Section: oldlibs
 Priority: extra
 Description: transitional package for qtdeclarative5-kf5declarative
@@ -87,27 +91,39 @@ Description: transitional package for qtdeclarative5-kf5declarative
 Package: qml-module-org-kde-draganddrop
 Architecture: any
 Multi-arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5declarative5 (>= ${source:Version})
-Breaks: qtdeclarative5-kf5declarative-5.0, qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1)
-Replaces: qtdeclarative5-kf5declarative-5.0, qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1)
+Depends: libkf5declarative5 (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
+        qtdeclarative5-kf5declarative-5.0
+Replaces: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
+          qtdeclarative5-kf5declarative-5.0
 Description: provides integration of QML and KDE frameworks - draganddrop
  Provides QML draganddrop functionality.
 
 Package: qml-module-org-kde-kcoreaddons
 Architecture: any
 Multi-arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5declarative5 (>= ${source:Version})
-Breaks: qtdeclarative5-kf5declarative-5.0, qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1)
-Replaces: qtdeclarative5-kf5declarative-5.0, qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1)
+Depends: libkf5declarative5 (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
+        qtdeclarative5-kf5declarative-5.0
+Replaces: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
+          qtdeclarative5-kf5declarative-5.0
 Description: provides integration of QML and KDE frameworks - kcoreaddons
  Provides access from QML to libkf5coreaddons classes.
 
 Package: qml-module-org-kde-kquickcontrols
 Architecture: any
 Multi-arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5declarative5 (>= ${source:Version})
-Breaks: qtdeclarative5-kf5declarative-5.0, qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1)
-Replaces: qtdeclarative5-kf5declarative-5.0, qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1)
+Depends: libkf5declarative5 (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
+        qtdeclarative5-kf5declarative-5.0
+Replaces: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
+          qtdeclarative5-kf5declarative-5.0
 Description: provides integration of QML and KDE frameworks - kquickcontrols
  This import contains KDE extras that are visually similar to Qt Quick
  Controls.
@@ -115,21 +131,29 @@ Description: provides integration of QML and KDE frameworks - kquickcontrols
 Package: qml-module-org-kde-kquickcontrolsaddons
 Architecture: any
 Multi-arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5declarative5 (>= ${source:Version})
-Breaks: qtdeclarative5-kf5declarative-5.0, qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1)
-Replaces: qtdeclarative5-kf5declarative-5.0, qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1)
+Depends: libkf5declarative5 (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
+        qtdeclarative5-kf5declarative-5.0
+Replaces: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
+          qtdeclarative5-kf5declarative-5.0
 Description: provides integration of QML and KDE Frameworks - kquickcontrolsaddons
  This import contains KDE extras that are visually similar to Qt Quick
  Controls.
  .
  This package contains the QML files used by libkf5declarative.
- 
+
 Package: qml-module-org-kde-kio
 Architecture: any
 Multi-arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5declarative5 (>= ${source:Version})
-Breaks: qtdeclarative5-kf5declarative-5.0, qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1)
-Replaces: qtdeclarative5-kf5declarative-5.0, qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1)
+Depends: libkf5declarative5 (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
+        qtdeclarative5-kf5declarative-5.0
+Replaces: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
+          qtdeclarative5-kf5declarative-5.0
 Description: provides integration of QML and KDE Frameworks - kio
  This import contains KDE extras that are visually similar to Qt Quick
  Controls.
