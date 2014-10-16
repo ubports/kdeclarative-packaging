@@ -1,4 +1,5 @@
 usr/include/KF5/
 usr/lib/*/cmake/KF5Declarative/
 usr/lib/*/libKF5Declarative.so
+usr/lib/*/libKF5QuickAddons.so
 usr/lib/*/qt5/mkspecs/modules/*
