@@ -1,8 +1,8 @@
-kdeclarative (5.4.0-0ubuntu1) UNRELEASED; urgency=medium
+kdeclarative (5.4.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Nov 2014 18:30:00 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Nov 2014 15:03:22 +0100
 
 kdeclarative (5.3.0-0ubuntu1) utopic; urgency=medium
 
