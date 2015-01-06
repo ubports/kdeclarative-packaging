@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0+git20141217.1610 amd64 i386
+# SymbolsHelper-Confirmed: 5.6.0 amd64
 libKF5QuickAddons.so.5 libkf5quickaddons5 #MINVER#
  _ZN18ImageTexturesCache11loadTextureEP12QQuickWindowRK6QImage@Base 5.3.0+git20141016.0334
  _ZN18ImageTexturesCacheC1Ev@Base 5.3.0+git20141016.0334
@@ -11,6 +11,12 @@ libKF5QuickAddons.so.5 libkf5quickaddons5 #MINVER#
  _ZN18ManagedTextureNodeD0Ev@Base 5.3.0+git20141016.0334
  _ZN18ManagedTextureNodeD1Ev@Base 5.3.0+git20141016.0334
  _ZN18ManagedTextureNodeD2Ev@Base 5.3.0+git20141016.0334
+ _ZN20QSGSimpleTextureNodeD0Ev@Base 5.6.0
+ _ZN20QSGSimpleTextureNodeD1Ev@Base 5.6.0
+ _ZN20QSGSimpleTextureNodeD2Ev@Base 5.6.0
  _ZTI18ManagedTextureNode@Base 5.3.0+git20141016.0334
+ _ZTI20QSGSimpleTextureNode@Base 5.6.0
  _ZTS18ManagedTextureNode@Base 5.3.0+git20141016.0334
+ _ZTS20QSGSimpleTextureNode@Base 5.6.0
  _ZTV18ManagedTextureNode@Base 5.3.0+git20141016.0334
+ _ZTV20QSGSimpleTextureNode@Base 5.6.0
