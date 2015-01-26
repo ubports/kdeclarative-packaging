@@ -1,5 +1,6 @@
-# SymbolsHelper-Confirmed: 5.5.0+git20141217.1610 amd64 i386
+# SymbolsHelper-Confirmed: 5.6.0+git20150126.0003+15.04 amd64 i386
 libKF5QuickAddons.so.5 libkf5quickaddons5 #MINVER#
+ _ZN18ImageTexturesCache11loadTextureEP12QQuickWindowRK6QImage6QFlagsINS0_19CreateTextureOptionEE@Base 5.6.0+git20150126.0003+15.04
  _ZN18ImageTexturesCache11loadTextureEP12QQuickWindowRK6QImage@Base 5.3.0+git20141016.0334
  _ZN18ImageTexturesCacheC1Ev@Base 5.3.0+git20141016.0334
  _ZN18ImageTexturesCacheC2Ev@Base 5.3.0+git20141016.0334
