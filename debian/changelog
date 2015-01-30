@@ -6,6 +6,7 @@ kdeclarative (5.6.0-1~) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Add acc autopkgtests.
   * Update copyright information.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jan 2015 17:12:06 +0100
 
