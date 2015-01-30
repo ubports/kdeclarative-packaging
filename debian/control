@@ -33,6 +33,7 @@ Depends: kio-dev (>= 5.6.0),
          libkf5declarative5 (= ${binary:Version}),
          libkf5quickaddons5 (= ${binary:Version}),
          qtbase5-dev (>= 5.2.0),
+         qtdeclarative5-dev,
          ${misc:Depends}
 Description: development files for kdeclarative
  Framework providing integration of QML and other KDE frameworks such
