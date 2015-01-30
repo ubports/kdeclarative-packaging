@@ -7,6 +7,7 @@ kdeclarative (5.6.0-1~) UNRELEASED; urgency=medium
   * Add acc autopkgtests.
   * Update copyright information.
   * Update install files.
+  * Update watch file.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jan 2015 17:12:06 +0100
 
