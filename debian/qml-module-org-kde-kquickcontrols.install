@@ -1,7 +1,4 @@
 usr/lib/*/qt5/qml/org/kde/kquickcontrols/KeySequenceItem.qml
-usr/lib/*/qt5/qml/org/kde/kquickcontrols/TextArea.qml
-usr/lib/*/qt5/qml/org/kde/kquickcontrols/TextField.qml
 usr/lib/*/qt5/qml/org/kde/kquickcontrols/qmldir
-usr/lib/*/qt5/qml/org/kde/private/kquickcontrols/TextMenu.qml
 usr/lib/*/qt5/qml/org/kde/private/kquickcontrols/libkquickcontrolsprivateplugin.so
 usr/lib/*/qt5/qml/org/kde/private/kquickcontrols/qmldir
