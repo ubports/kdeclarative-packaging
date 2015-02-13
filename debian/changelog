@@ -1,3 +1,10 @@
+kdeclarative (5.7.0-0ubuntu3) vivid; urgency=medium
+
+  * Refine kubuntu_fix_epoxy_vs_qopengl.diff to prevent Qt from
+    doing a second typedef on GLdouble
+
+ -- Harald Sitter <sitter@kde.org>  Fri, 13 Feb 2015 16:49:06 +0100
+
 kdeclarative (5.7.0-0ubuntu2) vivid; urgency=medium
 
   * Add kubuntu_fix_epoxy_vs_qopengl.diff in an attempt to fix
