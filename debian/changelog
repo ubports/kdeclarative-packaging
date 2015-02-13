@@ -1,3 +1,11 @@
+kdeclarative (5.7.0-0ubuntu2) vivid; urgency=medium
+
+  * Add kubuntu_fix_epoxy_vs_qopengl.diff in an attempt to fix
+    armhf builds failing from conflicting typedefs between epoxy
+    and qopengl
+
+ -- Harald Sitter <sitter@kde.org>  Fri, 13 Feb 2015 16:11:45 +0100
+
 kdeclarative (5.7.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
