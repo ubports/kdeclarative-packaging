@@ -115,6 +115,15 @@ Replaces: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
 Description: provides integration of QML and KDE frameworks - kcoreaddons
  Provides access from QML to libkf5coreaddons classes.
 
+Package: qml-module-org-kde-kwindowsystem
+Architecture: any
+Multi-arch: same
+Depends: libkf5declarative5 (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: provides integration of QML and KDE frameworks - kwindowsystem
+ Provides access from QML to libkf5windowsystem classes.
+
 Package: qml-module-org-kde-kquickcontrols
 Architecture: any
 Multi-arch: same
