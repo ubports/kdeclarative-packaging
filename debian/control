@@ -46,7 +46,9 @@ Package: libkf5declarative-dev
 Section: libdevel
 Architecture: any
 Depends: kio-dev,
+         libkf5config-dev (>= 5.7.0),
          libkf5declarative5 (= ${binary:Version}),
+         libkf5package-dev (>= 5.7.0),
          libkf5quickaddons5 (= ${binary:Version}),
          qtbase5-dev,
          qtdeclarative5-dev,
