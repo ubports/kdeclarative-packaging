@@ -1,0 +1,35 @@
+Description: fix epoxy include
+ epoxy defines GLdouble as double whereas qopengl defines it as float.
+ g++ doesn't like these conflicting typedefs.
+Author: Marco Martin <notmart@kde.org>
+Origin: vendor
+Forwarded: no
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: kdeclarative-5.7.0/src/qmlcontrols/kquickcontrolsaddons/plotter.cpp
+===================================================================
+--- kdeclarative-5.7.0.orig/src/qmlcontrols/kquickcontrolsaddons/plotter.cpp
++++ kdeclarative-5.7.0/src/qmlcontrols/kquickcontrolsaddons/plotter.cpp
+@@ -21,7 +21,6 @@
+  * Boston, MA 02110-1301, USA.
+ */
+ 
+-#include <epoxy/gl.h>
+ #include "plotter.h"
+ 
+ #include <QGuiApplication>
+Index: kdeclarative-5.7.0/src/qmlcontrols/kquickcontrolsaddons/plotter.h
+===================================================================
+--- kdeclarative-5.7.0.orig/src/qmlcontrols/kquickcontrolsaddons/plotter.h
++++ kdeclarative-5.7.0/src/qmlcontrols/kquickcontrolsaddons/plotter.h
+@@ -23,6 +23,10 @@
+ #ifndef PLASMA_PLOTTER_H
+ #define PLASMA_PLOTTER_H
+ 
++#include <epoxy/gl.h>
++// Qt's qopenl.h redefines GLdouble to float on ARM. This causes conflicting
++// typedefs and results in build failure on ARM.
++#define GLdouble GLdouble
+ #include <QSGTexture>
+ #include <QSGSimpleTextureNode>
+ #include <QQuickItem>

@@ -4,6 +4,27 @@ kdeclarative (5.7.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 17:38:39 +0100
 
+kdeclarative (5.7.0-0ubuntu3) vivid; urgency=medium
+
+  * Refine kubuntu_fix_epoxy_vs_qopengl.diff to prevent Qt from
+    doing a second typedef on GLdouble
+
+ -- Harald Sitter <sitter@kde.org>  Fri, 13 Feb 2015 16:49:06 +0100
+
+kdeclarative (5.7.0-0ubuntu2) vivid; urgency=medium
+
+  * Add kubuntu_fix_epoxy_vs_qopengl.diff in an attempt to fix
+    armhf builds failing from conflicting typedefs between epoxy
+    and qopengl
+
+ -- Harald Sitter <sitter@kde.org>  Fri, 13 Feb 2015 16:11:45 +0100
+
+kdeclarative (5.7.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:48:37 +0100
+
 kdeclarative (5.6.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
