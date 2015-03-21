@@ -6,6 +6,12 @@ kdeclarative (5.8.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 10:25:08 +0100
 
+kdeclarative (5.8.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:36:18 +0100
+
 kdeclarative (5.7.0-1) experimental; urgency=medium
 
   * New upstream release (5.7.0).

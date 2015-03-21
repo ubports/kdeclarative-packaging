@@ -28,6 +28,12 @@ XS-Testsuite: autopkgtest
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kdeclarative.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdeclarative.git
 
+Package: kpackagelauncherqml
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: commandline tool for launching kpackage QML application
+ A small commandline tool to launch KPackages (QML applications).
+
 Package: libkf5declarative-dev
 Section: libdevel
 Architecture: any
@@ -49,6 +55,7 @@ Architecture: any
 Depends: libkf5declarative-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: kpackagelauncherqml
 Multi-Arch: same
 Description: provides integration of QML and KDE frameworks
  Framework providing integration of QML and other KDE frameworks such
@@ -103,6 +110,15 @@ Replaces: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
           qtdeclarative5-kf5declarative-5.0
 Description: provides integration of QML and KDE frameworks - kcoreaddons
  Provides access from QML to libkf5coreaddons classes.
+
+Package: qml-module-org-kde-kwindowsystem
+Architecture: any
+Multi-arch: same
+Depends: libkf5declarative5 (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: provides integration of QML and KDE frameworks - kwindowsystem
+ Provides access from QML to libkf5windowsystem classes.
 
 Package: qml-module-org-kde-kquickcontrols
 Architecture: any
