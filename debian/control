@@ -33,6 +33,7 @@ Section: libdevel
 Architecture: any
 Depends: kio-dev (>= 5.8.0~),
          libkf5declarative5 (= ${binary:Version}),
+         libkf5package-dev (>= 5.8.0~),
          libkf5quickaddons5 (= ${binary:Version}),
          qtbase5-dev (>= 5.2.0),
          qtdeclarative5-dev (>= 5.2.0~),
