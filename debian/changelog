@@ -1,6 +1,7 @@
 kdeclarative (5.8.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.8.0).
+  * Remove upstream applied patch: kubuntu_fix_epoxy_vs_qopengl.diff
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 10:25:08 +0100
 
