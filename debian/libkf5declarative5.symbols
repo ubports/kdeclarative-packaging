@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.0 amd64
+# SymbolsHelper-Confirmed: 5.8.0 amd64
 libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative12KDeclarative10initializeEv@Base 4.96.0
  _ZN12KDeclarative12KDeclarative13setupBindingsEv@Base 4.96.0
@@ -21,6 +21,8 @@ libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative17ConfigPropertyMapD0Ev@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMapD1Ev@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMapD2Ev@Base 4.96.0
+ _ZN12KDeclarative9QmlObject10setPackageERKN8KPackage7PackageE@Base 5.8.0
+ _ZN12KDeclarative9QmlObject11loadPackageERK7QString@Base 5.8.0
  _ZN12KDeclarative9QmlObject11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN12KDeclarative9QmlObject11qt_metacastEPKc@Base 4.96.0
  _ZN12KDeclarative9QmlObject16staticMetaObjectE@Base 4.96.0
@@ -48,6 +50,7 @@ libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZNK12KDeclarative9QmlObject17translationDomainEv@Base 5.0.0
  _ZNK12KDeclarative9QmlObject23isInitializationDelayedEv@Base 4.96.0
  _ZNK12KDeclarative9QmlObject6sourceEv@Base 4.96.0
+ _ZNK12KDeclarative9QmlObject7packageEv@Base 5.8.0
  _ZTIN12KDeclarative17ConfigPropertyMapE@Base 4.96.0
  _ZTIN12KDeclarative9QmlObjectE@Base 4.96.0
  _ZTSN12KDeclarative17ConfigPropertyMapE@Base 4.96.0
