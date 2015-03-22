@@ -1,10 +1,10 @@
-kdeclarative (5.8.0-1~) UNRELEASED; urgency=medium
+kdeclarative (5.8.0-1) experimental; urgency=medium
 
   * New upstream release (5.8.0).
   * Remove upstream applied patch: kubuntu_fix_epoxy_vs_qopengl.diff
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 10:25:08 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:38:54 +0100
 
 kdeclarative (5.8.0-0ubuntu1) vivid; urgency=medium
 
