@@ -1,8 +1,8 @@
-kdeclarative (5.9.0-0ubuntu1) UNRELEASED; urgency=medium
+kdeclarative (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Apr 2015 10:51:02 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:26:36 +0200
 
 kdeclarative (5.8.0-0ubuntu1) vivid; urgency=medium
 
