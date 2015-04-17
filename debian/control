@@ -124,6 +124,9 @@ Package: qml-module-org-kde-kquickcontrols
 Architecture: any
 Multi-arch: same
 Depends: libkf5declarative5 (>= ${source:Version}),
+         qml-module-qtquick-controls,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
