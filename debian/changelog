@@ -1,3 +1,9 @@
+kdeclarative (5.10.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.10.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 12:19:47 +0200
+
 kdeclarative (5.9.0-1) experimental; urgency=medium
 
   * New upstream release (5.9.0).
