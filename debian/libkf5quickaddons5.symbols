@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.10.0 amd64
+# SymbolsHelper-Confirmed: 5.11.0 amd64
 libKF5QuickAddons.so.5 libkf5quickaddons5 #MINVER#
  _ZN12KQuickAddons12ConfigModule10setButtonsE6QFlagsINS0_6ButtonEE@Base 5.8.0+git20150324.0130+15.04
  _ZN12KQuickAddons12ConfigModule11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.8.0+git20150324.0130+15.04
@@ -26,8 +26,10 @@ libKF5QuickAddons.so.5 libkf5quickaddons5 #MINVER#
  _ZN12KQuickAddons12ConfigModule9needsSaveEv@Base 5.8.0+git20150324.0130+15.04
  _ZN12KQuickAddons12ConfigModuleC1EP7QObjectRK5QListI8QVariantE@Base 5.8.0+git20150324.0130+15.04
  _ZN12KQuickAddons12ConfigModuleC1EPK10KAboutDataP7QObjectRK5QListI8QVariantE@Base 5.8.0+git20150324.0130+15.04
+ _ZN12KQuickAddons12ConfigModuleC1ERK15KPluginMetaDataP7QObjectRK5QListI8QVariantE@Base 5.11.0
  _ZN12KQuickAddons12ConfigModuleC2EP7QObjectRK5QListI8QVariantE@Base 5.8.0+git20150324.0130+15.04
  _ZN12KQuickAddons12ConfigModuleC2EPK10KAboutDataP7QObjectRK5QListI8QVariantE@Base 5.8.0+git20150324.0130+15.04
+ _ZN12KQuickAddons12ConfigModuleC2ERK15KPluginMetaDataP7QObjectRK5QListI8QVariantE@Base 5.11.0
  _ZN12KQuickAddons12ConfigModuleD0Ev@Base 5.8.0+git20150324.0130+15.04
  _ZN12KQuickAddons12ConfigModuleD1Ev@Base 5.8.0+git20150324.0130+15.04
  _ZN12KQuickAddons12ConfigModuleD2Ev@Base 5.8.0+git20150324.0130+15.04
@@ -43,9 +45,9 @@ libKF5QuickAddons.so.5 libkf5quickaddons5 #MINVER#
  _ZN18ManagedTextureNodeD0Ev@Base 5.3.0+git20141016.0334
  _ZN18ManagedTextureNodeD1Ev@Base 5.3.0+git20141016.0334
  _ZN18ManagedTextureNodeD2Ev@Base 5.3.0+git20141016.0334
- (optional=gccinternal)_ZN20QSGSimpleTextureNodeD0Ev@Base 5.9.0
- (optional=gccinternal)_ZN20QSGSimpleTextureNodeD1Ev@Base 5.9.0
- (optional=gccinternal)_ZN20QSGSimpleTextureNodeD2Ev@Base 5.9.0
+ (optional=gccinternal|arch=!amd64)_ZN20QSGSimpleTextureNodeD0Ev@Base 5.9.0
+ (optional=gccinternal|arch=!amd64)_ZN20QSGSimpleTextureNodeD1Ev@Base 5.9.0
+ (optional=gccinternal|arch=!amd64)_ZN20QSGSimpleTextureNodeD2Ev@Base 5.9.0
  _ZNK12KQuickAddons12ConfigModule10metaObjectEv@Base 5.8.0+git20150324.0130+15.04
  _ZNK12KQuickAddons12ConfigModule14authActionNameEv@Base 5.8.0+git20150324.0130+15.04
  _ZNK12KQuickAddons12ConfigModule15rootOnlyMessageEv@Base 5.8.0+git20150324.0130+15.04
@@ -56,11 +58,11 @@ libKF5QuickAddons.so.5 libkf5quickaddons5 #MINVER#
  _ZNK12KQuickAddons12ConfigModule9aboutDataEv@Base 5.8.0+git20150324.0130+15.04
  _ZNK12KQuickAddons12ConfigModule9quickHelpEv@Base 5.8.0+git20150324.0130+15.04
  _ZTI18ManagedTextureNode@Base 5.3.0+git20141016.0334
- (optional=gccinternal)_ZTI20QSGSimpleTextureNode@Base 5.9.0
+ (optional=gccinternal|arch=!amd64)_ZTI20QSGSimpleTextureNode@Base 5.9.0
  _ZTIN12KQuickAddons12ConfigModuleE@Base 5.8.0+git20150324.0130+15.04
  _ZTS18ManagedTextureNode@Base 5.3.0+git20141016.0334
- (optional=gccinternal)_ZTS20QSGSimpleTextureNode@Base 5.9.0
+ (optional=gccinternal|arch=!amd64)_ZTS20QSGSimpleTextureNode@Base 5.9.0
  _ZTSN12KQuickAddons12ConfigModuleE@Base 5.8.0+git20150324.0130+15.04
  _ZTV18ManagedTextureNode@Base 5.3.0+git20141016.0334
- (optional=gccinternal)_ZTV20QSGSimpleTextureNode@Base 5.9.0
+ (optional=gccinternal|arch=!amd64)_ZTV20QSGSimpleTextureNode@Base 5.9.0
  _ZTVN12KQuickAddons12ConfigModuleE@Base 5.8.0+git20150324.0130+15.04
