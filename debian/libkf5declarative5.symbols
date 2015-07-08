@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.8.0 amd64
+# SymbolsHelper-Confirmed: 5.12.0 amd64
 libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative12KDeclarative10initializeEv@Base 4.96.0
  _ZN12KDeclarative12KDeclarative13setupBindingsEv@Base 4.96.0
@@ -21,10 +21,19 @@ libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative17ConfigPropertyMapD0Ev@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMapD1Ev@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMapD2Ev@Base 4.96.0
+ _ZN12KDeclarative21QmlObjectSharedEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.12.0
+ _ZN12KDeclarative21QmlObjectSharedEngine11qt_metacastEPKc@Base 5.12.0
+ _ZN12KDeclarative21QmlObjectSharedEngine16staticMetaObjectE@Base 5.12.0
+ _ZN12KDeclarative21QmlObjectSharedEngineC1EP7QObject@Base 5.12.0
+ _ZN12KDeclarative21QmlObjectSharedEngineC2EP7QObject@Base 5.12.0
+ _ZN12KDeclarative21QmlObjectSharedEngineD0Ev@Base 5.12.0
+ _ZN12KDeclarative21QmlObjectSharedEngineD1Ev@Base 5.12.0
+ _ZN12KDeclarative21QmlObjectSharedEngineD2Ev@Base 5.12.0
  _ZN12KDeclarative9QmlObject10setPackageERKN8KPackage7PackageE@Base 5.7.0+git20150305.0804+15.04
  _ZN12KDeclarative9QmlObject11loadPackageERK7QString@Base 5.7.0+git20150305.0804+15.04
  _ZN12KDeclarative9QmlObject11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN12KDeclarative9QmlObject11qt_metacastEPKc@Base 4.96.0
+ _ZN12KDeclarative9QmlObject13statusChangedEN13QQmlComponent6StatusE@Base 5.12.0
  _ZN12KDeclarative9QmlObject16staticMetaObjectE@Base 4.96.0
  _ZN12KDeclarative9QmlObject20setTranslationDomainERK7QString@Base 5.0.0
  _ZN12KDeclarative9QmlObject22completeInitializationERK5QHashI7QString8QVariantE@Base 4.96.0
@@ -34,8 +43,10 @@ libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative9QmlObject6engineEv@Base 4.96.0
  _ZN12KDeclarative9QmlObject8finishedEv@Base 4.96.0
  _ZN12KDeclarative9QmlObject9setSourceERK4QUrl@Base 4.96.0
+ _ZN12KDeclarative9QmlObjectC1EP10QQmlEngineP11QQmlContextP7QObject@Base 5.12.0
  _ZN12KDeclarative9QmlObjectC1EP10QQmlEngineP7QObject@Base 4.96.0
  _ZN12KDeclarative9QmlObjectC1EP7QObject@Base 4.96.0
+ _ZN12KDeclarative9QmlObjectC2EP10QQmlEngineP11QQmlContextP7QObject@Base 5.12.0
  _ZN12KDeclarative9QmlObjectC2EP10QQmlEngineP7QObject@Base 4.96.0
  _ZN12KDeclarative9QmlObjectC2EP7QObject@Base 4.96.0
  _ZN12KDeclarative9QmlObjectD0Ev@Base 4.96.0
@@ -44,16 +55,41 @@ libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZNK12KDeclarative12KDeclarative17declarativeEngineEv@Base 4.96.0
  _ZNK12KDeclarative12KDeclarative17translationDomainEv@Base 5.0.0
  _ZNK12KDeclarative17ConfigPropertyMap10metaObjectEv@Base 4.96.0
+ _ZNK12KDeclarative21QmlObjectSharedEngine10metaObjectEv@Base 5.12.0
  _ZNK12KDeclarative9QmlObject10metaObjectEv@Base 4.96.0
  _ZNK12KDeclarative9QmlObject10rootObjectEv@Base 4.96.0
+ _ZNK12KDeclarative9QmlObject11rootContextEv@Base 5.12.0
  _ZNK12KDeclarative9QmlObject13mainComponentEv@Base 4.96.0
  _ZNK12KDeclarative9QmlObject17translationDomainEv@Base 5.0.0
  _ZNK12KDeclarative9QmlObject23isInitializationDelayedEv@Base 4.96.0
  _ZNK12KDeclarative9QmlObject6sourceEv@Base 4.96.0
+ _ZNK12KDeclarative9QmlObject6statusEv@Base 5.12.0
  _ZNK12KDeclarative9QmlObject7packageEv@Base 5.7.0+git20150305.0804+15.04
+ (optional=templinst)_ZNSt10shared_ptrI10QQmlEngineED1Ev@Base 5.12.0
+ (optional=templinst)_ZNSt10shared_ptrI10QQmlEngineED2Ev@Base 5.12.0
+ (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 5.12.0
+ (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 5.12.0
+ (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 5.12.0
+ (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info@Base 5.12.0
+ (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EED0Ev@Base 5.12.0
+ (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EED1Ev@Base 5.12.0
+ (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EED2Ev@Base 5.12.0
  _ZTIN12KDeclarative17ConfigPropertyMapE@Base 4.96.0
+ _ZTIN12KDeclarative21QmlObjectSharedEngineE@Base 5.12.0
  _ZTIN12KDeclarative9QmlObjectE@Base 4.96.0
+ _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
+ _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
+ _ZTISt19_Sp_make_shared_tag@Base 5.12.0
+ _ZTISt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
  _ZTSN12KDeclarative17ConfigPropertyMapE@Base 4.96.0
+ _ZTSN12KDeclarative21QmlObjectSharedEngineE@Base 5.12.0
  _ZTSN12KDeclarative9QmlObjectE@Base 4.96.0
+ _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
+ _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
+ _ZTSSt19_Sp_make_shared_tag@Base 5.12.0
+ _ZTSSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
  _ZTVN12KDeclarative17ConfigPropertyMapE@Base 4.96.0
+ _ZTVN12KDeclarative21QmlObjectSharedEngineE@Base 5.12.0
  _ZTVN12KDeclarative9QmlObjectE@Base 4.96.0
+ _ZTVSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
+ _ZTVSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
