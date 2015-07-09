@@ -16,6 +16,7 @@
 
 <gcc_options>
     -fPIC
+    -std=gnu++11
 </gcc_options>
 
 </descriptor>
