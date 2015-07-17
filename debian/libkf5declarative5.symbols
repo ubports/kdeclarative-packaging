@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.0 amd64
+# SymbolsHelper-Confirmed: 5.12.0 amd64 armel
 libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative12KDeclarative10initializeEv@Base 4.96.0
  _ZN12KDeclarative12KDeclarative13setupBindingsEv@Base 4.96.0
@@ -67,29 +67,46 @@ libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZNK12KDeclarative9QmlObject7packageEv@Base 5.7.0+git20150305.0804+15.04
  (optional=templinst)_ZNSt10shared_ptrI10QQmlEngineED1Ev@Base 5.12.0
  (optional=templinst)_ZNSt10shared_ptrI10QQmlEngineED2Ev@Base 5.12.0
- (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 5.12.0
- (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 5.12.0
- (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 5.12.0
- (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info@Base 5.12.0
- (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EED0Ev@Base 5.12.0
- (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EED1Ev@Base 5.12.0
- (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EED2Ev@Base 5.12.0
+ (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 5.12.0
+ (optional=templinst|arch=!armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 5.12.0
+ (optional=templinst|arch=armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 5.12.0
+ (optional=templinst|arch=armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE10_M_disposeEv@Base 5.12.0
+ (optional=templinst|arch=armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE14_M_get_deleterERKSt9type_info@Base 5.12.0
+ (optional=templinst|arch=armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE1EED0Ev@Base 5.12.0
+ (optional=templinst|arch=armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE1EED1Ev@Base 5.12.0
+ (optional=templinst|arch=armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE1EED2Ev@Base 5.12.0
+ (optional=templinst|arch=!armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 5.12.0
+ (optional=templinst|arch=!armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 5.12.0
+ (optional=templinst|arch=!armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info@Base 5.12.0
+ (optional=templinst|arch=!armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EED0Ev@Base 5.12.0
+ (optional=templinst|arch=!armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EED1Ev@Base 5.12.0
+ (optional=templinst|arch=!armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EED2Ev@Base 5.12.0
  _ZTIN12KDeclarative17ConfigPropertyMapE@Base 4.96.0
  _ZTIN12KDeclarative21QmlObjectSharedEngineE@Base 5.12.0
  _ZTIN12KDeclarative9QmlObjectE@Base 4.96.0
- _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
- _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
+ (arch=armel)_ZTIN9__gnu_cxx7__mutexE@Base 5.12.0
+ (arch=armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 5.12.0
+ (arch=!armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
+ (arch=armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 5.12.0
+ (arch=!armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
  _ZTISt19_Sp_make_shared_tag@Base 5.12.0
- _ZTISt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
+ (arch=armel)_ZTISt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Base 5.12.0
+ (arch=!armel)_ZTISt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
  _ZTSN12KDeclarative17ConfigPropertyMapE@Base 4.96.0
  _ZTSN12KDeclarative21QmlObjectSharedEngineE@Base 5.12.0
  _ZTSN12KDeclarative9QmlObjectE@Base 4.96.0
- _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
- _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
+ (arch=armel)_ZTSN9__gnu_cxx7__mutexE@Base 5.12.0
+ (arch=armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 5.12.0
+ (arch=!armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
+ (arch=armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 5.12.0
+ (arch=!armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
  _ZTSSt19_Sp_make_shared_tag@Base 5.12.0
- _ZTSSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
+ (arch=armel)_ZTSSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Base 5.12.0
+ (arch=!armel)_ZTSSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
  _ZTVN12KDeclarative17ConfigPropertyMapE@Base 4.96.0
  _ZTVN12KDeclarative21QmlObjectSharedEngineE@Base 5.12.0
  _ZTVN12KDeclarative9QmlObjectE@Base 4.96.0
- _ZTVSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
- _ZTVSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
+ (arch=armel)_ZTVSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 5.12.0
+ (arch=!armel)_ZTVSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
+ (arch=armel)_ZTVSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Base 5.12.0
+ (arch=!armel)_ZTVSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 5.12.0
