@@ -1,6 +1,7 @@
 kdeclarative (5.14.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.14.0).
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 14 Sep 2015 00:24:41 +0200
 
