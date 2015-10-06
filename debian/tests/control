@@ -5,3 +5,4 @@ Restrictions: build-needed
 
 Tests: acc
 Depends: @, dh-acc, exuberant-ctags
+Restrictions: allow-stderr
