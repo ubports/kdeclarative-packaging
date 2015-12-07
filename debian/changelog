@@ -1,3 +1,9 @@
+kdeclarative (5.17.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.17.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Dec 2015 14:17:25 +0100
+
 kdeclarative (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
