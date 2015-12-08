@@ -1,6 +1,7 @@
 usr/include/KF5/KDeclarative/
 usr/include/KF5/kdeclarative_version.h
 usr/lib/*/cmake/KF5Declarative/
+usr/lib/*/libKF5CalendarEvents.so
 usr/lib/*/libKF5Declarative.so
 usr/lib/*/libKF5QuickAddons.so
 usr/lib/*/qt5/mkspecs/modules/qt_KDeclarative.pri

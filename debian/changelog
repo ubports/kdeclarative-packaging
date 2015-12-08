@@ -1,6 +1,7 @@
 kdeclarative (5.17.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.17.0).
+  * Add new calendar events lib.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Dec 2015 14:17:25 +0100
 
