@@ -1,3 +1,8 @@
+kdeclarative (5.16.0-2) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Jan 2016 17:03:13 +0300
+
 kdeclarative (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
