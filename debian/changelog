@@ -5,6 +5,13 @@ kdeclarative (5.17.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Dec 2015 14:17:25 +0100
 
+kdeclarative (5.16.0-2) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Fix description of qtdeclarative5-kf5declarative transitional package.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Jan 2016 17:03:13 +0300
+
 kdeclarative (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).

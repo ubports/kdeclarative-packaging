@@ -81,9 +81,9 @@ Depends: qml-module-org-kde-draganddrop,
          ${shlibs:Depends}
 Section: oldlibs
 Priority: extra
-Description: transitional package for qtdeclarative5-kf5declarative
- This is a transitional dummy package for qml-module-serviceframework
- which can be safely removed.
+Description: transitional package for new QML module packages
+ This is a transitional dummy package for the new QML module packages
+ provided by kf5declarative, which can be safely removed.
 
 Package: qml-module-org-kde-draganddrop
 Architecture: any
