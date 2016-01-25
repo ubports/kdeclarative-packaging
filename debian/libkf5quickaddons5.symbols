@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0 amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.18.0 amd64
 libKF5QuickAddons.so.5 libkf5quickaddons5 #MINVER#
  _ZN12KQuickAddons12ConfigModule10setButtonsE6QFlagsINS0_6ButtonEE@Base 5.8.0+git20150324.0130+15.04
  _ZN12KQuickAddons12ConfigModule11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.8.0+git20150324.0130+15.04
@@ -84,4 +84,5 @@ libKF5QuickAddons.so.5 libkf5quickaddons5 #MINVER#
  _ZTV18ManagedTextureNode@Base 5.3.0+git20141016.0334
  _ZTVN12KQuickAddons12ConfigModuleE@Base 5.8.0+git20150324.0130+15.04
  _ZTVN12KQuickAddons21QuickViewSharedEngineE@Base 5.12.0
+ _ZZZN10KAboutDataC4ERK7QStringS2_S2_S2_N13KAboutLicense10LicenseKeyES2_S2_S2_S2_Ed_NKUlvE_clEvE15qstring_literal@Base 5.18.0
  (c++)"non-virtual thunk to KQuickAddons::QuickViewSharedEngine::~QuickViewSharedEngine()@Base" 5.12.0

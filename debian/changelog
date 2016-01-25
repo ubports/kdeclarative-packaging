@@ -3,6 +3,7 @@ kdeclarative (5.18.0-1~) UNRELEASED; urgency=medium
   * New upstream release (5.17.0).
   * Add new calendar events lib.
   * New upstream release (5.18.0).
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Jan 2016 20:57:27 +0100
 
