@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.18.0 amd64
+# SymbolsHelper-Confirmed: 5.18.0 amd64 i386
 libKF5QuickAddons.so.5 libkf5quickaddons5 #MINVER#
  _ZN12KQuickAddons12ConfigModule10setButtonsE6QFlagsINS0_6ButtonEE@Base 5.8.0+git20150324.0130+15.04
  _ZN12KQuickAddons12ConfigModule11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.8.0+git20150324.0130+15.04
